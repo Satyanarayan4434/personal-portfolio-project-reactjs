@@ -1,7 +1,8 @@
+import HeroPage from "../components/HeroPage";
 const Home = () => {
     return (
-        <div>
-            
+        <div className="pt-[7.5rem]">
+            <HeroPage/>
         </div>
     );
 }

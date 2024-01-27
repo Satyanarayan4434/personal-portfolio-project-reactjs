@@ -1,11 +1,11 @@
-import heroImg from "../assets/heroImg.png"
+import heroImg from "../assets/heroIMG-1.png"
 const HeroPage = () => {
     return (
         <div className="w-full flex justify-between items-center ">
-            <div className="w-[50%] flex flex-col items-start lg:ml-24 ">
+            <div className="w-[50%] flex flex-col gap-5 items-start lg:ml-24 ">
                 <h1 className="text-4xl font-bold">Hi, I am Satyanarayan sen</h1>
-                <p>I am a MERN stack Developer</p>
-                <p>Building Websites to solve real life problems</p>
+                <p className="text-2xl font-semibold ">I am a MERN stack Developer</p>
+                <p className="text-">Building Websites to solve real life problems</p>
                 <button>
                     <p>Contact Me</p>
                 </button>

@@ -1,4 +1,5 @@
-import heroImg from "../assets/heroIMG-1.png"
+import heroImg from "../assets/heroIMG-1.png";
+import qutosImg from "../assets/qutos.png"
 import { BsSendArrowDown } from "react-icons/bs";
 import { CiDesktopMouse2 } from "react-icons/ci";
 import { IoIosArrowRoundDown } from "react-icons/io";
@@ -6,9 +7,9 @@ const HeroPage = () => {
     return (
         <div className="w-full flex justify-between items-center bg-[#B2C8BA] overflow-hidden relative">
             <div className="w-[50%] flex flex-col gap-5 items-start lg:ml-24 ">
-                <h1 className="text-4xl font-bold">Hi, I am Satyanarayan sen</h1>
-                <p className="text-xl font-semibold opacity-85">I am a MERN stack Developer</p>
-                <p className="text-xl">Building Websites to solve real life problems</p>
+                <h1 className="text-[4rem] z-10 font-bold "><span className="font-extrabold text-blue-800">Hi,</span> I am Satyanarayan sen</h1>
+                <p className="text-xl font-semibold opacity-85 text-blue-800">I am a MERN stack Developer</p>
+                <p className="text-xl text-blue-900">Building Websites to solve real life problems</p>
                 <button className="bg-[#1640D6] text-white px-4 py-3 rounded-md flex gap-3">
                     <p>Contact Me</p>
                     <BsSendArrowDown  size={"1.5em"} className="rotate-45"/>
@@ -20,10 +21,11 @@ const HeroPage = () => {
                 </div>
             </div>
             <div className="z-10">
-                <img src={heroImg} alt="" className="w-[44rem] brightness-90"/>
-                
+                <img src={heroImg} alt="" className="w-[44rem] brightness-90"/>                
             </div>
             <div className="w-[70rem] -z-0 h-[44rem] bg-slate-700 shadow-2xl shadow-black rounded-t-[50rem] absolute -top-10 -right-[22rem]"></div>
+            <img src={qutosImg} alt="" className="absolute top-[14rem] left-[39.3rem] opacity-35 -z-0 w-[3rem]"/>
+            <img src={qutosImg} alt="" className="absolute top-[7rem] left-[2.5rem] opacity-35 -z-0 w-[3rem] rotate-180"/>
         </div>
     );
 }

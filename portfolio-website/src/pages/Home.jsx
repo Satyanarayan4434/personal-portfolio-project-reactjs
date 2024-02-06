@@ -1,10 +1,16 @@
 import HeroPage from "../components/HeroPage";
-import bioPage from "../components/bioPage";
+import WhoPage from "../components/WhoPage";
+import Skills from "../components/Skills";
+import ProjectsPage from "../components/ProjectsPage";
+import ContactPage from "../components/ContactSection";
 const Home = () => {
     return (
         <div className="pt-[7.5rem]">
             <HeroPage/>  
-            <bioPage/>     
+            <WhoPage/>
+            <Skills/>
+            <ProjectsPage/>
+            <ContactPage/>
         </div>
         
     );

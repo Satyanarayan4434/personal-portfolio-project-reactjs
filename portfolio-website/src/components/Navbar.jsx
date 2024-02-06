@@ -7,7 +7,7 @@ import { useState } from "react";
 const Navbar = () => {
     const [btnState, setBtnStae] = useState(false)
     return (
-        <div className="bg-[#2D3250] lg:px-10 py-4  flex flex-col md:flex-row lg:flex-row text-white justify-between text-sm items-center fixed top-[5rem] md:top-[3.5rem] lg:top-[3.5rem] z-40 w-full transition-all delay-150">
+        <div className="lg:bg-[#2D3250] bg-[#164863] shadow-2xl lg:px-10 py-4  flex flex-col md:flex-row lg:flex-row text-white justify-between text-sm items-center fixed top-[5rem] md:top-[3.5rem] lg:top-[3.5rem] z-40 w-full transition-all delay-150">
             <div className="flex justify-between w-[23rem]">
                 <div>
                     <NavLink to='/'><img src={logo} alt="" className="w-[2rem]  border-yellow-700 border-[2px] h-[2rem] rounded-full"/></NavLink>

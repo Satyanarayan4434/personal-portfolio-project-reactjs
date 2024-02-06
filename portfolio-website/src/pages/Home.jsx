@@ -3,6 +3,7 @@ import WhoPage from "../components/WhoPage";
 import Skills from "../components/Skills";
 import ProjectsPage from "../components/ProjectsPage";
 import ContactPage from "../components/ContactSection";
+import Footer from "../components/Footer";
 const Home = () => {
     return (
         <div className="pt-[7.5rem]">
@@ -11,6 +12,7 @@ const Home = () => {
             <Skills/>
             <ProjectsPage/>
             <ContactPage/>
+            <Footer/>
         </div>
         
     );
